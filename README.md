@@ -16,3 +16,7 @@ In the Terminal navigate to the directory containing this file, then begin a gam
 `../connect4 player1 player2`
 
 Where player1 and player2 are one of 'h' or 'c'. 'h' means that the given player is a human player, while 'c' indicates that the given player is a computer player, and the perfect AI will play. Both arguments are optional, where player1 defaults to 'c', player2 defaults to 'h'.
+
+Below is an example of the AI (red) beating a human (yellow) in the Terminal on MacOS
+
+![alt text](https://github.com/nicholasprowse/connect-4/blob/main/connect-4.gif)
