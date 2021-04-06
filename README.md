@@ -11,6 +11,6 @@ Use the arrow keys to select the column to play. Hit enter to play your move.
 ## USAGE
 In the Terminal navigate to the directory containing this file, then begin a game using the following command
 
-`./connect4 player1 player2`
+`../connect4 player1 player2`
 
 Where player1 and player2 are one of 'h' or 'c'. 'h' means that the given player is a human player, while 'c' indicates that the given player is a computer player, and the perfect AI will play. Both arguments are optional, where player1 defaults to 'c', player2 defaults to 'h'.
