@@ -5,6 +5,8 @@ The AI is created using the negamax algorithm with alpha beta pruning. Transposi
 
 This has been tested using the Terminal on MacOS. It should work on Linux, and I expect it to work on windows but it hasn't been tested.
 
+The perfect AI is based on this blog http://blog.gamesolver.org/solving-connect-four/01-introduction/
+
 ## CONTROLS
 Use the arrow keys to select the column to play. Hit enter to play your move. 
 
