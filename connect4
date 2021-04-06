@@ -1,0 +1,34 @@
+#!/bin/sh
+PLAYER1="x"
+PLAYER2="x"
+
+while [ $# -gt 0 ]
+do
+	if [ $1 = "c" ] || [ $1 == "h" ]
+	then
+		if [ $PLAYER1 = "x" ]
+		then
+			PLAYER1=$1
+		else
+			PLAYER2=$1
+		fi
+	fi
+
+	shift
+done
+
+if [ $PLAYER1 = "x" ]
+then
+	PLAYER1="c"
+fi
+
+if [ $PLAYER2 = "x" ]
+then
+	PLAYER2="h"
+fi
+
+
+
+cd ../Connect4/bin
+stty raw
+java Connect4 $PLAYER1 $PLAYER2
